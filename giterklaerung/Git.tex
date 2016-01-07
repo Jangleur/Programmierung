@@ -1,0 +1,42 @@
+\documentclass[reqno]{article}
+\usepackage{amsmath}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc} %erlaubt Umlaute
+\usepackage[T1]{fontenc} %macht Wörter mit Umlauten trennbar
+\usepackage{mathptmx}
+
+\begin{document}
+  \begin{enumerate}
+  	\item Lade den vorhandenen Ordner von der Seite runter. Öffne dazu die Konsole, gehe zum Desktop, und tippe
+  	  \begin{verbatim}
+  	    git clone https://jangleur@github.com/kraftk/NetSec.git
+  	  \end{verbatim}
+  	  Wahrscheinlich musst du nun deine Passwort eingeben. Falls das nicht funktionieren sollte frag mich, vlt passt da irgendwas nicht...
+  	\item Du solltest jetzt einen Ordner "NetSec" \, auf dem Desktop haben, in dem sich schon diverse Dateien befinden. Wenn du an dem Projekt arbeiten möchtest, versichere dich vorher mit 
+  	  \begin{verbatim}
+  	    git pull
+  	  \end{verbatim}
+  	  dass du dich auf dem aktuellen Stand befindest.
+  	\item Hast du etwas geändert, so musst du deine Änderungen natürlich wieder hochladen. Mit
+  	  \begin{verbatim}
+  	    git status
+  	  \end{verbatim}
+      bekommst du eine Übersicht darüber, welche Dateien du geändert hast, und welche du schon geaddet hast (siehe nächster Schritt). Mit
+      \begin{verbatim}
+        git add <FILE1> <FILE2>
+      \end{verbatim}
+      fügst du Dateien hinzu. Entsprechend löscht du Dateien mit
+      \begin{verbatim}
+        git rm <FILE1> <FILE2>
+      \end{verbatim} 
+      Sobald du alle Dateien, die du hochladen möchtest hinzugefügt hast, musst du zuerst einen Kommentar zu deinen Änderungen geben. Dazu
+      \begin{verbatim}
+        git commit (-a)
+      \end{verbatim}
+      Hier öffnet sich nun ein seltsames Fenster. Um darin zu schreiben tippst du \texttt{i}, dann deinen commit. Um das Fenster wieder zu verlassen, drückst du \texttt{ESC}, \texttt{:wq} (write \& quit). Danach lädst du sie mit
+      \begin{verbatim}
+        git push
+      \end{verbatim}
+      endgültig hoch. Falls du dich wunderst, dass dir nicht alle Dateien angezeigt werden - im \texttt{.gitignore} File (verstecktes File) stehen alle Files, die von git ignoriert werden. Schau da mal rein.
+  \end{enumerate}
+\end{document}
