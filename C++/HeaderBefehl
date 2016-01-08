@@ -1,0 +1,21 @@
+Um zu kompilieren:
+g++ -c meinmodul1.cpp -o meinmodul1.o
+g++ meinmodul1.o hauptprog.cpp -o hauptprog
+
+Bei mehrern .h Klassen z.b. bei Vererbung muss man diese alle beim zweiten angeben. Also z.B.
+g++ Fahrzeug.o Auto.o AutoFahren.cpp -o AutoFahren
+
+Alternativ:
+g++ main.cpp hello.cpp factorial.cpp -o funtions
+wobei hier funtions.h ist
+
+pwd gibt absoluten pfad von aktuellen verzeichniss an
+
+Wenn eigene Header dateien in anderen Ordner liegen muss man dem Kompiler den Pfad mitteilen. Das geht mittels:
+-IPfadMitHeaderdateien, z.B. -IC:\Projekte\Projekt1\src.
+
+
+Wenn man Makros nur einbinden möchte in eine (einzige) Datei:
+
+g++ -c meinmodul1.cpp -o meinmodul1.o
+g++ meinmodul1.cpp -o meinmodul1
