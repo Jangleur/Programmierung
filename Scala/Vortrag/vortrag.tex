@@ -1,0 +1,118 @@
+\documentclass[12pt,utf8]{beamer}
+
+
+%Wichtige Standard Pakete!
+\usepackage[ngerman]{babel}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+% Dummy Text
+\usepackage{lipsum}
+
+%Für den Header notwendig!
+\usepackage[percent]{overpic}
+
+%Sourcecode
+\usepackage{listings}
+
+%Einbinden des Themes
+%\input{Theme/ubuntuuserstheme.tex}
+
+%Standard Angaben
+\author{Jan Albert}
+\title{Funktionale Programmierung in Scala}
+\date{\today}
+
+\begin{document}
+
+	%Titelseite
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	%Inhaltsverzeichnis
+	\begin{frame}
+		\frametitle{Inhaltsverzeichnis}
+		\tableofcontents
+	\end{frame}
+	
+	%Spielerei
+	\section[Section]{Spielerei}
+	\lstdefinestyle{customc}{
+  		belowcaptionskip=1\baselineskip,
+  		breaklines=true,
+  		frame=L,
+  		xleftmargin=\parindent,
+  		language=C,
+  		showstringspaces=false,
+  		basicstyle=\footnotesize\ttfamily,
+  		keywordstyle=\bfseries\color{green!40!black},
+  		commentstyle=\itshape\color{purple!40!black},
+  		identifierstyle=\color{blue},
+  		stringstyle=\color{orange},
+	}
+
+	\lstdefinestyle{customasm}{
+  		belowcaptionskip=1\baselineskip,
+  		frame=L,
+  		xleftmargin=\parindent,
+  		language=[x86masm]Assembler,
+  		basicstyle=\footnotesize\ttfamily,
+  		commentstyle=\itshape\color{purple!40!black},
+	}
+
+	\lstset{escapechar=@,style=customc}   
+	\begin{lstlisting}
+		#include <stdio.h>
+		#define N 10
+		/* Block
+ 		* comment */
+
+		int main()
+		{
+    		int i;
+
+    		// Line comment.
+    		puts("Hello world!");
+    
+    		for (i = 0; i < N; i++)
+    		{
+        		puts("LaTeX is also great for programmers!");
+    		}
+
+    		return 0;
+		}
+	\end{lstlisting}
+
+
+	
+	%Quellen
+	\section[Section]{Quellen}
+	\begin{frame}[allowframebreaks]
+  		\frametitle<presentation>{Quellen}    
+  		\begin{thebibliography}{10}    
+  		\beamertemplatebookbibitems
+  		\bibitem{Autor1990}
+    		Paul Chiusano,
+    		Runar Bjarnason
+   		 \newblock {\em Functional Programming in Scala}
+    	\newblock Manning, 2014.
+  		\beamertemplatearticlebibitems
+  		\bibitem{Jemand2000}
+    	S.~Jemand.
+    	\newblock On this and that.
+    	\newblock {\em Journal of This and That}, 2(1):		50--100, 2000.
+  		\end{thebibliography}
+	\end{frame}
+	
+	%Danksagung
+	\section[Section]{Danksagung}
+	\begin{frame}
+		\vfill
+		\begin{center}\begin{Huge}Vielen Dank \\[10pt]
+			für eure Aufmerksamkeit.\end{Huge}\vfill
+		\end{center}
+		\vfill
+	\end{frame}
+	
+\end{document}
