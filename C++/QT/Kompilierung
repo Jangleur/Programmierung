@@ -1,6 +1,0 @@
-Zuerst legen wir in einem neuen Ordner „first“ eine Datei „main.cpp“ an und fügen den obigen Code ein. Danach öffnen wir die Kommandozeile und wechseln in das Verzeichnis des Codes. Nun führen wir folgende Reihe an Befehlen aus:
-
-qmake-qt4 -project
-qmake-qt4
-make
-./first
