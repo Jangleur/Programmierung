@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.4)  5 OCT 2018 08:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.4)  5 OCT 2018 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1566,25 +1566,26 @@ Package xypdf Info: Line width: 0.47998pt on input line 107.
  [2
 
 ] (./einfuehrung.tex
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 17.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 19.
+LaTeX Font Info:    No file OMScmss.fd. on input line 17.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 19.
+(Font)              for symbol `textbullet' on input line 17.
 
 [3
 
-]) (./definitionen.tex) (./spielerei.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+]) (./reinefunktionen.tex [4
 
- [4
+]) (./ausdruck.tex [5
 
-]
-[5 <c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf> <c:/texlive
-/2018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [6
+]) (./spielerei.tex)
+[6
+
+ <c:/texlive/2018/texmf-dist/tex/latex/beamer/beamericonbook.pdf> <c:/texlive/2
+018/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [7
 
 ]
 \tf@nav=\write7
@@ -1596,40 +1597,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@snm=\write9
 \openout9 = `vortrag.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./vortrag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package rerunfilecheck Info: File `vortrag.out' has not changed.
+(rerunfilecheck)             Checksum: D608F5E5F6A2CEFC1EB0BD09B54DEE57;564.
 
-
-Package rerunfilecheck Warning: File `vortrag.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `vortrag.out':
-(rerunfilecheck)             Before: 31CC675F45F1004D4976C7CBA40AF5D5;428
-(rerunfilecheck)             After:  362B32007716CD8C56100B43FFA4E890;428.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31527 strings out of 492639
- 568131 string characters out of 6133088
- 693005 words of memory out of 5000000
- 34743 multiletter control sequences out of 15000+600000
+ 31536 strings out of 492639
+ 568187 string characters out of 6133088
+ 693006 words of memory out of 5000000
+ 34746 multiletter control sequences out of 15000+600000
  16565 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,14n,84p,3239b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on vortrag.pdf (6 pages, 55569 bytes).
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts
+/type1/public/mathabx-type1/matha12.pfb>
+Output written on vortrag.pdf (7 pages, 62749 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 20 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
