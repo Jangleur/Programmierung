@@ -2,12 +2,90 @@
 
 
 %Wichtige Standard Pakete!
+\usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage{xcolor}
 \usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{listings}
+\usepackage{mathabx}
+\usepackage{tikz,pgf}
+\usepackage{tikz-cd}
+\usepackage{pgf}
+\usepackage{algorithm, algorithmic}
+\renewcommand{\algorithmicrequire}{\textbf{Eingabe:}}
+\renewcommand{\algorithmicensure}{\textbf{Ausgabe:}}
+\usetikzlibrary{matrix,arrows}
+\usepackage[autostyle=true,german=quotes]{csquotes}
+\usepackage[all]{xy}
+\usepackage{stmaryrd}
+\usepackage{framed}
+\usepackage{bbm}
+\usepackage{cite}
+\usepackage{etoolbox}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\newcommand\mySlash[2]{\ensuremath{%
+		\!\sideset{_#1}{\!^#2}{\mathop\backslash}}}
+\apptocmd{\sloppy}{\hbadness 10000\relax}{}{}
 
-% Dummy Text
-\usepackage{lipsum}
+
+%Mathe
+\DeclareMathOperator{\Disc}{Disc}
+\DeclareMathOperator{\MGCD}{MGCD}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\N}{N}
+\DeclareMathOperator{\Mat}{Mat}
+\DeclareMathOperator{\IntCls}{IntCls}
+\DeclareMathOperator{\kgV}{kgV}
+\DeclareMathOperator{\lc}{lc}
+\DeclareMathOperator{\ggt}{ggT}
+\DeclareMathOperator{\id}{id}
+
+% Definiere div-Operator äquivalent zu mod
+\makeatletter
+\newcommand*{\bdiv}{%
+  \nonscript\mskip-\medmuskip\mkern5mu%
+  \mathbin{\operator@font div}\penalty900\mkern5mu%
+  \nonscript\mskip-\medmuskip
+}
+\newcommand{\testleftlong}{\longleftarrow\!\shortmid}
+
+\makeatother
+\usepackage{rotating}
+\newcommand\tabrotate[1]{\begin{turn}{90}\rlap{#1}\end{turn}}
+\newcommand{\invertediota}{\begin{sideways}%
+		\begin{sideways}$\iota$\end{sideways}\end{sideways}}
+% Benutze theoremstyles von Thomas, ein klein wenig verändert
+\newtheoremstyle{break-italic}% name
+  {1ex}%      Space above, empty = `usual value'
+  {}%      Space below
+  {\itshape}% Body font
+  {0cm}%         Indent amount (empty = no indent, \parindent = para indent)
+  {\bfseries}% Thm head font
+  {}%        Punctuation after thm head
+  {\newline }% Space after thm head: \newline = linebreak
+  {}%         Thm head 
+\newtheoremstyle{break-roman}% name
+  {1ex}%      Space above, empty = `usual value'
+  {}%      Space below
+  {\normalfont}% Body font
+  {}%         Indent amount (empty = no indent, \parindent = para indent)
+  {\bfseries}% Thm head font
+  {}%        Punctuation after thm head
+  {\newline }% Space after thm head: \newline = linebreak
+  {}%         Thm head spec
+  
+\theoremstyle{break-italic} 
+\newtheorem{defe}[theorem]{Definition}
+
+\newcommand{\einschraenkung}{\,\rule[-5pt]{0.4pt}{12pt}\,{}}
+
+
+
 
 %Für den Header notwendig!
 \usepackage[percent]{overpic}
@@ -28,6 +106,7 @@
 
 \begin{document}
 
+
 	%Titelseite
 	\begin{frame}
 		\titlepage
@@ -40,87 +119,22 @@
 	\end{frame}
 	
 	%Einfuehrung
-	\section[Section]{Einführung}
-		\begin{frame}
-			\frametitle{Was ist Funktionale Programmierung?}
-			\begin{flushleft}
-				\underline{Idee:}
-				Benutzt ausschließlich "reine Funktionen" d. h. 	  Funktionen, welche keine Seiteneffekte haben. \newline
-				
-				\underline{Beispiele für Seiteneffekte:}
-				\begin{itemize}
-				\item[•] Verändern/Modifizieren einer Variable
-				\item[•] Verändern/Modifizieren einer Datenstruktur
-				\item[•] Ein Attribut initalisieren
-				\item[•] Eine Exception werfen
-				\item[•] Konsolen Eingabe/Ausgabe
-				\item[•] Lesen/Schreiben aus/von einer Datei
-				\end{itemize}
-			\end{flushleft}
-		\end{frame}
-		
+	\input{einfuehrung}
+	
 	%Definitionen
-	\section[Section]{Definitionen}
-		\theoremstyle{definition}
-\begin{definition}{Fibration}
-A fibration is a mapping between two topological spaces that has the homotopy lifting property for every space $X$.
-\end{definition}
+	\input{definitionen}
 
 	
 	%Spielerei
-	\section[Section]{Spielerei}
-	\lstdefinestyle{customc}{
-  		belowcaptionskip=1\baselineskip,
-  		breaklines=true,
-  		frame=L,
-  		xleftmargin=\parindent,
-  		language=C,
-  		showstringspaces=false,
-  		basicstyle=\footnotesize\ttfamily,
-  		keywordstyle=\bfseries\color{green!40!black},
-  		commentstyle=\itshape\color{purple!40!black},
-  		identifierstyle=\color{blue},
-  		stringstyle=\color{orange},
-	}
-
-	\lstdefinestyle{customasm}{
-  		belowcaptionskip=1\baselineskip,
-  		frame=L,
-  		xleftmargin=\parindent,
-  		language=[x86masm]Assembler,
-  		basicstyle=\footnotesize\ttfamily,
-  		commentstyle=\itshape\color{purple!40!black},
-	}
-
-	\lstset{escapechar=@,style=customc}   
-	\begin{lstlisting}
-		#include <stdio.h>
-		#define N 10
-		/* Block
- 		* comment */
-
-		int main()
-		{
-    		int i;
-
-    		// Line comment.
-    		puts("Hello world!");
-    
-    		for (i = 0; i < N; i++)
-    		{
-        		puts("LaTeX is also great for programmers!");
-    		}
-
-    		return 0;
-		}
-	\end{lstlisting}
+	\input{spielerei}
+	
 
 
 	
 	%Quellen
-	\section[Section]{Quellen}
+	\section[Section]*{Quellen}
 	\begin{frame}[allowframebreaks]
-  		\frametitle<presentation>{Quellen}    
+  		\frametitle{Quellen}    
   		\begin{thebibliography}{10}    
   		\beamertemplatebookbibitems
   		\bibitem{Autor1990}

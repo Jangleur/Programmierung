@@ -1,7 +1,6 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \beamer@sectionintoc {1}{Einf\IeC {\"u}hrung}{3}{0}{1}
 \beamer@sectionintoc {2}{Definitionen}{4}{0}{2}
 \beamer@sectionintoc {3}{Spielerei}{4}{0}{3}
-\beamer@sectionintoc {4}{Quellen}{5}{0}{4}
-\beamer@sectionintoc {5}{Danksagung}{7}{0}{5}
+\beamer@sectionintoc {4}{*}{4}{0}{4}
+\beamer@sectionintoc {5}{Danksagung}{6}{0}{5}
