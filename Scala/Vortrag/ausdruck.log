@@ -1,10 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.4)  5 OCT 2018 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.3)  5 OCT 2018 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **ausdruck.tex
 (./ausdruck.tex
-LaTeX2e <2018-04-01> patch level 5
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 ! Undefined control sequence.
 l.1 	\section
              [Section]{Ausdruck}
@@ -248,14 +249,6 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
 Missing character: There is no . in font nullfont!
 
 ! LaTeX Error: \begin{frame} on input line 2 ended by \end{defe}.
@@ -362,11 +355,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 10 strings out of 492639
- 191 string characters out of 6133088
- 56951 words of memory out of 5000000
- 3999 multiletter control sequences out of 15000+600000
- 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 strings out of 493029
+ 220 string characters out of 6136234
+ 53072 words of memory out of 5000000
+ 3649 multiletter control sequences out of 15000+600000
+ 3986 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,3n,13p,136b,73s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,3n,13p,136b,78s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

@@ -1,7 +1,9 @@
-\babel@toc {ngerman}{}
+\beamer@endinputifotherversion {3.36pt}
+\select@language {ngerman}
 \beamer@sectionintoc {1}{Einf\IeC {\"u}hrung}{3}{0}{1}
 \beamer@sectionintoc {2}{Reine Funktionen}{4}{0}{2}
 \beamer@sectionintoc {3}{Ausdruck}{5}{0}{3}
-\beamer@sectionintoc {4}{Spielerei}{6}{0}{4}
-\beamer@sectionintoc {5}{Quellen}{6}{0}{5}
-\beamer@sectionintoc {6}{Danksagung}{7}{0}{6}
+\beamer@sectionintoc {4}{Referenziell Transparent (RT)}{6}{0}{4}
+\beamer@sectionintoc {5}{Spielerei}{7}{0}{5}
+\beamer@sectionintoc {6}{Quellen}{7}{0}{6}
+\beamer@sectionintoc {7}{Danksagung}{8}{0}{7}

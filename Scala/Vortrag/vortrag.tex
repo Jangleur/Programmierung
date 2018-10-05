@@ -17,7 +17,7 @@
 \usepackage{pgf}
 \usepackage{algorithm, algorithmic}
 \renewcommand{\algorithmicrequire}{\textbf{Eingabe:}}
-\renewcommand{\algorithmicensure}{\textbf{Ausgabe:}}
+%\renewcommand{\algorithmicensure}{\textbf{Ausgabe:}}
 \usetikzlibrary{matrix,arrows}
 \usepackage[autostyle=true,german=quotes]{csquotes}
 \usepackage[all]{xy}
@@ -32,6 +32,8 @@
 		\!\sideset{_#1}{\!^#2}{\mathop\backslash}}}
 \apptocmd{\sloppy}{\hbadness 10000\relax}{}{}
 
+%Nummerierung der Folien
+\beamertemplatefootpagenumber 
 
 %Mathe
 \DeclareMathOperator{\Disc}{Disc}
@@ -127,7 +129,8 @@
 	%Ausdruck
 	\input{ausdruck}
 	
-	%
+	%RT
+	\input{rt}
 	
 	%Spielerei
 	\input{spielerei}

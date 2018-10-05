@@ -1,7 +1,13 @@
-\section[Section]{Referenziell Transparent (RT)}
-	\begin{frame}
-		\frametitle{Referenziell Transparent (RT)}
-		\begin{defe}[Referenziell Transparent (RT)]
-			Ein Ausdruck $e$ ist Referenziell Transparent (RT),
-			wenn für alle Programme $p$, alle 
-		\end{defe} 
+	\section[Section]{Referenziell Transparent (RT)}
+		\begin{frame}
+			\frametitle{Referenziell Transparent (RT)}
+			\begin{definition}[Referenziell Transparent (RT)]
+				Ein Ausdruck $e$ ist \emph{Referenziell Transparent (RT)},
+				wenn für alle Programme $p$, alle Vorkommnisse von
+				$e$ in $p$ durch das Ergebnis von $e$ ersetzt werden
+				können, ohne die Bedeutung von $p$ zu ändern.
+				Eine Funktion ist rein, wenn der Ausdruck $f(x)$ 			  
+				referenziell transparent für alle referenziell
+				transparenten $x$ ist.
+			\end{definition} 
+		\end{frame}
