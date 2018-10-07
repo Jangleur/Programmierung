@@ -1,6 +1,4 @@
-	\section[Section]{Spielerei}
-		\begin{frame}[fragile]
-		\frametitle{Scala}
+\frametitle{Scala}
 		\begin{lstlisting}[style=myScalastyle]
 class Cafe {
 	def buyCoffee(cc: CreditCard): Coffee = {
@@ -10,6 +8,3 @@ class Cafe {
 	}
 }
 \end{lstlisting}
-\end{frame}
-		
-			
