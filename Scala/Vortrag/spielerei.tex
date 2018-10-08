@@ -1,15 +1,22 @@
 	\section[Section]{Spielerei}
 		\begin{frame}[fragile]
-		\frametitle{Die Klasse Charge}
-		\begin{lstlisting}[style=myScalastyle]
-case class Charge(cc: CreditCard, amount: Double) {
-	def combine(other: Charge): Charge =
-		if (cc == other.cc)
-			Charge(cc, amount + other.amount)
-		else
-			throw new Exception("Can't combine charges to different cards")		
-}
-\end{lstlisting}
+		\frametitle{Buch}
+	    
+\begin{columns}[c]
+  \begin{column}{0.55\textwidth}
+    Functional Programming in Scala\\
+    \leavevmode \\
+    Paul Chiusano,
+    Runar Bjarnason\\
+    \leavevmode \\
+    Manning, 2014
+  \end{column}
+  \begin{column}[T]{0.55\textwidth}
+    \includegraphics[scale=0.06]{book2.jpg}
+  \end{column}
+\end{columns}
+		
+		
 \end{frame}
 		
 			
