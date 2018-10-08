@@ -1,9 +1,10 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \beamer@sectionintoc {1}{Einf\IeC {\"u}hrung}{3}{0}{1}
 \beamer@sectionintoc {2}{Reine Funktionen}{4}{0}{2}
 \beamer@sectionintoc {3}{Ausdruck}{5}{0}{3}
 \beamer@sectionintoc {4}{Referenziell Transparent (RT)}{6}{0}{4}
-\beamer@sectionintoc {5}{Spielerei}{7}{0}{5}
-\beamer@sectionintoc {6}{Quellen}{8}{0}{6}
-\beamer@sectionintoc {7}{Danksagung}{9}{0}{7}
+\beamer@sectionintoc {5}{Beispiel mit Seiteneffekte}{7}{0}{5}
+\beamer@sectionintoc {6}{Beispiel ohne Seiteneffekte}{8}{0}{6}
+\beamer@sectionintoc {7}{Spielerei}{9}{0}{7}
+\beamer@sectionintoc {8}{Quellen}{10}{0}{8}
+\beamer@sectionintoc {9}{Danksagung}{11}{0}{9}

@@ -1,13 +1,13 @@
 	\section[Section]{Spielerei}
 		\begin{frame}[fragile]
-		\frametitle{Scala}
+		\frametitle{Die Klasse Charge}
 		\begin{lstlisting}[style=myScalastyle]
-class Cafe {
-	def buyCoffee(cc: CreditCard): Coffee = {
-		val cup = new Coffee()
-		cc.charge(cup.price)
-		cup
-	}
+case class Charge(cc: CreditCard, amount: Double) {
+	def combine(other: Charge): Charge =
+		if (cc == other.cc)
+			Charge(cc, amount + other.amount)
+		else
+			throw new Exception("Can't combine charges to different cards")		
 }
 \end{lstlisting}
 \end{frame}

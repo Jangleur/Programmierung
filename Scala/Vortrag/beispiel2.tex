@@ -1,0 +1,12 @@
+	\section[Section]{Beispiel ohne Seiteneffekte}
+		\begin{frame}[fragile]
+		\frametitle{Beispiel ohne Seiteneffekte}
+		\begin{lstlisting}[style=myScalastyle]
+class Cafe {
+	def buyCoffee(cc: CreditCard): (Coffee, Charge) = {
+		val cup = new Coffee()
+		(cup, Charge(cc, cup.price))
+	}
+}
+\end{lstlisting}
+\end{frame}
