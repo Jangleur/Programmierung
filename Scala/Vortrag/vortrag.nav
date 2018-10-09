@@ -38,23 +38,28 @@
 \headcommand {\beamer@subsectionpages {8}{8}}
 \headcommand {\slideentry {7}{0}{1}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\sectionentry {8}{Section}{10}{Spielerei}{0}}
+\headcommand {\sectionentry {8}{Section}{10}{Klasse Charge}{0}}
 \headcommand {\beamer@sectionpages {9}{9}}
 \headcommand {\beamer@subsectionpages {9}{9}}
 \headcommand {\slideentry {8}{0}{1}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\sectionentry {9}{Section}{11}{Quellen}{0}}
+\headcommand {\sectionentry {9}{Section}{11}{Spielerei}{0}}
 \headcommand {\beamer@sectionpages {10}{10}}
 \headcommand {\beamer@subsectionpages {10}{10}}
 \headcommand {\slideentry {9}{0}{1}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\sectionentry {10}{Section}{12}{Danksagung}{0}}
+\headcommand {\sectionentry {10}{Section}{12}{Quellen}{0}}
 \headcommand {\beamer@sectionpages {11}{11}}
 \headcommand {\beamer@subsectionpages {11}{11}}
 \headcommand {\slideentry {10}{0}{1}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@partpages {1}{12}}
-\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\sectionentry {11}{Section}{13}{Danksagung}{0}}
 \headcommand {\beamer@sectionpages {12}{12}}
-\headcommand {\beamer@documentpages {12}}
-\headcommand {\def \inserttotalframenumber {12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\slideentry {11}{0}{1}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@partpages {1}{13}}
+\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\beamer@sectionpages {13}{13}}
+\headcommand {\beamer@documentpages {13}}
+\headcommand {\def \inserttotalframenumber {13}}
