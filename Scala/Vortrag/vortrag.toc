@@ -1,12 +1,13 @@
-\babel@toc {ngerman}{}
+\beamer@endinputifotherversion {3.36pt}
+\select@language {ngerman}
 \beamer@sectionintoc {1}{Buch}{3}{0}{1}
 \beamer@sectionintoc {2}{Einf\IeC {\"u}hrung}{4}{0}{2}
 \beamer@sectionintoc {3}{Reine Funktionen}{5}{0}{3}
 \beamer@sectionintoc {4}{Ausdruck}{6}{0}{4}
 \beamer@sectionintoc {5}{Referenziell Transparent (RT)}{7}{0}{5}
 \beamer@sectionintoc {6}{Beispiel mit Seiteneffekte}{8}{0}{6}
-\beamer@sectionintoc {7}{Beispiel ohne Seiteneffekte}{9}{0}{7}
-\beamer@sectionintoc {8}{Klasse Charge}{10}{0}{8}
-\beamer@sectionintoc {9}{Spielerei}{11}{0}{9}
+\beamer@sectionintoc {7}{Spielerei}{9}{0}{7}
+\beamer@sectionintoc {8}{Beispiel ohne Seiteneffekte}{10}{0}{8}
+\beamer@sectionintoc {9}{Klasse Charge}{11}{0}{9}
 \beamer@sectionintoc {10}{Quellen}{12}{0}{10}
 \beamer@sectionintoc {11}{Danksagung}{13}{0}{11}
