@@ -1,5 +1,4 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {ngerman}
+\babel@toc {ngerman}{}
 \beamer@sectionintoc {1}{Buch}{3}{0}{1}
 \beamer@sectionintoc {2}{Einf\IeC {\"u}hrung}{4}{0}{2}
 \beamer@sectionintoc {3}{Reine Funktionen}{5}{0}{3}

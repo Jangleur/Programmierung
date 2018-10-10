@@ -1,17 +1,6 @@
-\frametitle{Buch}
-
-\begin{columns}[c]
-  \begin{column}{0.55\textwidth}
-    Functional Programming in Scala\\
-    \leavevmode \\
-    Paul Chiusano,
-    Runar Bjarnason\\
-    \leavevmode \\
-    Manning, 2014
-  \end{column}
-  \begin{column}[T]{0.55\textwidth}
-    \includegraphics[scale=0.06]{book2.jpg}
-  \end{column}
-\end{columns}
-
-
+\frametitle{Spielerei}
+	\begin{tcolorbox}[colback=blue!5,colframe=blue!40!black,title=RT in Beispiel1]
+		Der Returntype von cc.charge(cup.price) "verschwindet"\\
+		in buyCoffee. Das Ergebnis von buyCoffee(aCreditCard) ist
+		nur cup, was äquivalent zu new Coffee() ist. Wenn buyCoffee eine reine 				Funktion wäre, so müsste für jedes Programm p, sich 								p(buyCoffee(aCreditCard)) und p(new Coffee()) gleich verhalten.
+	\end{tcolorbox}
