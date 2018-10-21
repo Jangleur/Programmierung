@@ -3,6 +3,12 @@ case object Nil extends MyList[Nothing]
 case class Cons[+A] (head: A, tail: MyList[A]) extends MyList[A]
 
 object MyList { 
+
+  def tail[A](l: MyList[A]): MyList[A] = l match {
+    case Nil => Nil
+    case Cons(h,t) => t
+  }
+
   def sum(ints: MyList[Int]): Int = ints match { 
     case Nil => 0 
     case Cons(x,xs) => x + sum(xs) 
@@ -14,6 +20,23 @@ object MyList {
     case Cons(x,xs) => x * product(xs)
   }
 
+  def foldRight[A,B](l: MyList[A], ne: B)(f:(A,B) => B): B = l match {
+    case Nil => ne
+    case Cons(h,t) => f(h, foldRight(t,ne)(f))
+  }
+
+  def sum2(ints: MyList[Int]): Int = {
+    foldRight(ints, 0)((x,y) => x+y)
+  }
+ 
+  def product2(ds: MyList[Double]): Double = {
+    foldRight(ds, 1.0)(_*_)
+  }
+
+  def length[A](l: MyList[A]): Int = {
+    foldRight(l, 0)((_,acc) => acc+1)
+  }
+
   def drop[A](l: MyList[A], n: Int): MyList[A] = {
     if (n <= 0) l
     else l match {
@@ -22,14 +45,20 @@ object MyList {
     }
   }
 
-  def dropWhile[A](l: MyList[A], p: A => Boolean): MyList[A] = l match {
-     case Cons(h, t) if p(h) => dropWhile(t, p)
+  def dropWhile[A](l: MyList[A])(p: A => Boolean): MyList[A] = l match {
+     case Cons(h, t) if p(h) => dropWhile(t)(p)
      case _ => l
   }
 
   def append[A](a1: MyList[A], a2: MyList[A]): MyList[A] = a1 match {
     case Nil => a2
     case Cons(h,t) => Cons(h, append(t, a2))
+  }
+
+  def init[A](l: MyList[A]): MyList[A] = l match {
+    case Nil => Nil
+    case Cons(_, Nil) => Nil
+    case Cons(h,t) => Cons(h, init(t))
   }
 
   def apply[A](as: A*): MyList[A] = 
