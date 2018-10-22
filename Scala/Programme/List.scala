@@ -25,6 +25,16 @@ object MyList {
     case Cons(h,t) => f(h, foldRight(t,ne)(f))
   }
 
+  @annotation.tailrec
+  def foldLeft[A,B](l: MyList[A], ne: B)(f:(B,A) => B): B = l match {
+    case Nil => ne
+    case Cons(h,t) => foldLeft(t, f(ne, h))(f)
+  }
+  
+  def reverse[A](l: MyList[A]): MyList[A] = {
+    foldLeft(l,MyList[A]())((x,y) => Cons(y,x))
+  }
+  
   def sum2(ints: MyList[Int]): Int = {
     foldRight(ints, 0)((x,y) => x+y)
   }
