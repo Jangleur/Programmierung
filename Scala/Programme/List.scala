@@ -34,6 +34,10 @@ object MyList {
   def reverse[A](l: MyList[A]): MyList[A] = {
     foldLeft(l,MyList[A]())((x,y) => Cons(y,x))
   }
+
+  def foldRight2[A,B](l: MyList[A], ne: B)(f: (A,B) => B): B = {
+    foldLeft(reverse(l), ne)((x,y) => f(y,x))
+  }
   
   def sum2(ints: MyList[Int]): Int = {
     foldRight(ints, 0)((x,y) => x+y)
