@@ -30,10 +30,17 @@ object MyList {
     case Nil => ne
     case Cons(h,t) => foldLeft(t, f(ne, h))(f)
   }
-  
+
+  def concate[A](l: MyList[A], a: MyList[A]): MyList[A] =
+    foldLeft(l, a)((x,y) => Cons(y,x))
+  	
   def reverse[A](l: MyList[A]): MyList[A] = {
     foldLeft(l,MyList[A]())((x,y) => Cons(y,x))
   }
+
+  def add1(l: MyList[Int]): MyList[Int] =
+    foldLeft(reverse(l), MyList[Int]())((x,y) => Cons(y+1,x))
+  
 
   def foldRight2[A,B](l: MyList[A], ne: B)(f: (A,B) => B): B = {
     foldLeft(reverse(l), ne)((x,y) => f(y,x))
