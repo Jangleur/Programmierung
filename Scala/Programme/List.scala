@@ -31,6 +31,9 @@ object MyList {
     case Cons(h,t) => foldLeft(t, f(ne, h))(f)
   }
 
+  def map[A,B](l: MyList[A])(f: A => B): MyList[B] =
+    foldLeft(reverse(l),MyList[B]())((x,y) => Cons(f(y),x))
+
   def concate[A](l: MyList[A], a: MyList[A]): MyList[A] =
     foldLeft(l, a)((x,y) => Cons(y,x))
   	
