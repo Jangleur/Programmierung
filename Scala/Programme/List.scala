@@ -34,32 +34,35 @@ object MyList {
   def map[A,B](l: MyList[A])(f: A => B): MyList[B] =
     foldLeft(reverse(l),MyList[B]())((x,y) => Cons(f(y),x))
 
+  def filter[A](l: MyList[A])(f: A => Boolean): MyList[A] =
+    flatMap(l)(x => if (f(x)) MyList[A](x) else MyList[A]())
+
+  def flatMap[A,B](l: MyList[A])(f: A => MyList[B]): MyList[B] =
+    foldLeft(reverse(l), MyList[B]())((x,y) => concate(f(y),x))
+
+  def zipWith[A, B, C](a1: MyList[A], a2: MyList[B])(f: (A,B) => C): MyList[C] = (a1,a2) match {
+    case (_,Nil) => Nil
+    case (Nil,_) => Nil
+    case (Cons(h1,t1), Cons(h2,t2)) => Cons(f(h1,h2), zipWith(t1,t2)(f))
+  }
+
   def concate[A](l: MyList[A], a: MyList[A]): MyList[A] =
     foldLeft(l, a)((x,y) => Cons(y,x))
   	
-  def reverse[A](l: MyList[A]): MyList[A] = {
+  def reverse[A](l: MyList[A]): MyList[A] = 
     foldLeft(l,MyList[A]())((x,y) => Cons(y,x))
-  }
-
-  def add1(l: MyList[Int]): MyList[Int] =
-    foldLeft(reverse(l), MyList[Int]())((x,y) => Cons(y+1,x))
-  
-
-  def foldRight2[A,B](l: MyList[A], ne: B)(f: (A,B) => B): B = {
-    foldLeft(reverse(l), ne)((x,y) => f(y,x))
-  }
-  
-  def sum2(ints: MyList[Int]): Int = {
-    foldRight(ints, 0)((x,y) => x+y)
-  }
  
-  def product2(ds: MyList[Double]): Double = {
+  def foldRight2[A,B](l: MyList[A], ne: B)(f: (A,B) => B): B = 
+    foldLeft(reverse(l), ne)((x,y) => f(y,x))
+  
+  def sum2(ints: MyList[Int]): Int = 
+    foldRight(ints, 0)((x,y) => x+y)
+ 
+  def product2(ds: MyList[Double]): Double = 
     foldRight(ds, 1.0)(_*_)
-  }
 
-  def length[A](l: MyList[A]): Int = {
+  def length[A](l: MyList[A]): Int = 
     foldRight(l, 0)((_,acc) => acc+1)
-  }
 
   def drop[A](l: MyList[A], n: Int): MyList[A] = {
     if (n <= 0) l
