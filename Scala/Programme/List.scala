@@ -46,6 +46,12 @@ object MyList {
     case (Cons(h1,t1), Cons(h2,t2)) => Cons(f(h1,h2), zipWith(t1,t2)(f))
   }
 
+  def hasSubsequence[A](sup: MyList[A], sub: MyList[A]): Boolean = (sup,sub) match {
+    case (_,Nil) => true
+    case (Nil,_) => false
+    case (Cons(h1,t1), Cons(h2,t2)) => if (h1==h2) hasSubsequence(t1,t2) else hasSubsequence(t1,Cons(h2,t2))
+  }
+  	
   def concate[A](l: MyList[A], a: MyList[A]): MyList[A] =
     foldLeft(l, a)((x,y) => Cons(y,x))
   	
