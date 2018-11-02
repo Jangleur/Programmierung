@@ -12,7 +12,14 @@ sealed trait Option[+A] {
     case None => default
     case Some(a) => a
   } 
-  	
+  
+  def orElse[B >: A](obj: => Option[B]): Option[B] =
+    this map (Some(_)) getOrElse obj	
+
+  def filter(p: A => Boolean): Option[A] = this match {
+    case Some(a) if p(a) => Some(a)
+    case _ => None
+  }
 }
 
 case class Some[+A](get: A) extends Option[A]
