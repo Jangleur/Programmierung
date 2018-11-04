@@ -31,6 +31,9 @@ object MyOption {
     else Some(xs.sum / xs.length)
 
   def variance(xs: Seq[Double]): MyOption[Double] =
-     mean(xs) flatMap (m => mean(xs map (x => math.pow(x - m, 2))))
+     mean(xs) flatMap (m => mean(xs map (x => math.pow(x - m,2))))
+
+  def lift[A,B](f: A => B): MyOption[A] => MyOption[B] =
+      (o: MyOption[A]) => o.map(f)
 }
 
