@@ -9,5 +9,7 @@
 \beamer@sectionintoc {7}{Spielerei}{9}{0}{7}
 \beamer@sectionintoc {8}{Beispiel ohne Seiteneffekte}{10}{0}{8}
 \beamer@sectionintoc {9}{Klasse Charge}{11}{0}{9}
-\beamer@sectionintoc {10}{Quellen}{12}{0}{10}
-\beamer@sectionintoc {11}{Danksagung}{13}{0}{11}
+\beamer@sectionintoc {10}{Vortragtext}{12}{0}{10}
+\beamer@sectionintoc {11}{Zweites Beispiel}{13}{0}{11}
+\beamer@sectionintoc {12}{Quellen}{14}{0}{12}
+\beamer@sectionintoc {13}{Danksagung}{15}{0}{13}

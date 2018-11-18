@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.3)  10 OCT 2018 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.3)  18 NOV 2018 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1979,7 +1979,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (./buch.tex
 \openout4 = `vortrag.vrb'.
 
- (./vortrag.vrb <book2.jpg, id=133, 2049.6575pt x 2569.6pt>
+ (./vortrag.vrb <book2.jpg, id=145, 2049.6575pt x 2569.6pt>
 File: book2.jpg Graphic file (type jpg)
 
 <use book2.jpg>
@@ -2037,10 +2037,18 @@ File: lstlang3.sty 2015/06/04 1.6 listings language file
 
  (./vortrag.vrb) [11
 
-]) [12
+]) (./Vortragtext.tex
+Overfull \vbox (1379.68669pt too high) detected at line 27
+ []
+
+[12
+
+]) (./string.tex [13
+
+]) [14
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonbook.pdf> </usr/
-share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [13
+share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [15
 
 ]
 \tf@nav=\write9
@@ -2052,13 +2060,13 @@ share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [13
 \tf@snm=\write11
 \openout11 = `vortrag.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
  (./vortrag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
 Package rerunfilecheck Info: File `vortrag.out' has not changed.
-(rerunfilecheck)             Checksum: 41EE3E9E7B65F9FAACB5087E124FD00A;1305.
+(rerunfilecheck)             Checksum: 972007D1B3E166F8069DB30476F2AE96;1533.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2067,13 +2075,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
  ) 
 Here is how much of TeX's memory you used:
- 33761 strings out of 493029
- 615368 string characters out of 6136234
- 762942 words of memory out of 5000000
- 36523 multiletter control sequences out of 15000+600000
+ 33789 strings out of 493029
+ 615674 string characters out of 6136234
+ 785209 words of memory out of 5000000
+ 36540 multiletter control sequences out of 15000+600000
  17038 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,14n,84p,3239b,1333s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2084,10 +2092,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/mathabx-type1/matha12.pfb>
-Output written on vortrag.pdf (13 pages, 367188 bytes).
+Output written on vortrag.pdf (15 pages, 376551 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 421 compressed objects within 5 object streams
- 40 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 480 compressed objects within 5 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
