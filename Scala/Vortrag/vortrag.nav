@@ -8,7 +8,7 @@
 \headcommand {\beamer@subsectionpages {1}{2}}
 \headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\sectionentry {2}{Section}{4}{Einf\IeC {\"u}hrung}{0}}
+\headcommand {\sectionentry {2}{Section}{4}{Was ist Funktionale Programmierung?}{0}}
 \headcommand {\beamer@sectionpages {3}{3}}
 \headcommand {\beamer@subsectionpages {3}{3}}
 \headcommand {\slideentry {2}{0}{1}{4/4}{}{0}}
@@ -28,45 +28,39 @@
 \headcommand {\beamer@subsectionpages {6}{6}}
 \headcommand {\slideentry {5}{0}{1}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\sectionentry {6}{Section}{8}{Beispiel mit Seiteneffekte}{0}}
+\headcommand {\sectionentry {6}{Section}{8}{Beispiel f\IeC {\"u}r RT}{0}}
 \headcommand {\beamer@sectionpages {7}{7}}
 \headcommand {\beamer@subsectionpages {7}{7}}
 \headcommand {\slideentry {6}{0}{1}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\sectionentry {7}{Section}{9}{Spielerei}{0}}
-\headcommand {\beamer@sectionpages {8}{8}}
-\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\slideentry {7}{0}{1}{9/9}{}{0}}
+\headcommand {\slideentry {6}{0}{2}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\sectionentry {8}{Section}{10}{Beispiel ohne Seiteneffekte}{0}}
-\headcommand {\beamer@sectionpages {9}{9}}
-\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\slideentry {8}{0}{1}{10/10}{}{0}}
+\headcommand {\sectionentry {7}{Section}{10}{Gegenbeispiel f\IeC {\"u}r RT}{0}}
+\headcommand {\beamer@sectionpages {8}{9}}
+\headcommand {\beamer@subsectionpages {8}{9}}
+\headcommand {\slideentry {7}{0}{1}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\sectionentry {9}{Section}{11}{Klasse Charge}{0}}
-\headcommand {\beamer@sectionpages {10}{10}}
-\headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\slideentry {9}{0}{1}{11/11}{}{0}}
+\headcommand {\slideentry {7}{0}{2}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\sectionentry {10}{Section}{12}{Vortragtext}{0}}
-\headcommand {\beamer@sectionpages {11}{11}}
-\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\slideentry {10}{0}{1}{12/12}{}{0}}
+\headcommand {\sectionentry {8}{Section}{12}{Beispiel mit Seiteneffekt}{0}}
+\headcommand {\beamer@sectionpages {10}{11}}
+\headcommand {\beamer@subsectionpages {10}{11}}
+\headcommand {\slideentry {8}{0}{1}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\sectionentry {11}{Section}{13}{Zweites Beispiel}{0}}
+\headcommand {\sectionentry {9}{Section}{13}{RT im Beispiel}{0}}
 \headcommand {\beamer@sectionpages {12}{12}}
 \headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\slideentry {11}{0}{1}{13/13}{}{0}}
+\headcommand {\slideentry {9}{0}{1}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\sectionentry {12}{Section}{14}{Quellen}{0}}
+\headcommand {\sectionentry {10}{Section}{14}{Beispiel ohne Seiteneffekt}{0}}
 \headcommand {\beamer@sectionpages {13}{13}}
 \headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\slideentry {12}{0}{1}{14/14}{}{0}}
+\headcommand {\slideentry {10}{0}{1}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\sectionentry {13}{Section}{15}{Danksagung}{0}}
+\headcommand {\sectionentry {11}{Section}{15}{Danksagung}{0}}
 \headcommand {\beamer@sectionpages {14}{14}}
 \headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\slideentry {13}{0}{1}{15/15}{}{0}}
+\headcommand {\slideentry {11}{0}{1}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
 \headcommand {\beamer@partpages {1}{15}}
 \headcommand {\beamer@subsectionpages {15}{15}}

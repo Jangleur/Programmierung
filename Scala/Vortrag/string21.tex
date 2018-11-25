@@ -1,0 +1,20 @@
+	\begin{frame}[fragile]
+		\frametitle{Gegenbeispiel für RT}
+		%Die Ausgabe ist hier verschieden. Obwohl r1 und r2
+		%so aussehen, als wären sie der gleich Ausdruck, referenzieren
+		%sie zwei verschiedene Wert vom selben StringBuilder. Zu dem 
+		%Zeitpunkt in dem r2 x.append aufruft, hat r1 schon das Objekt
+		%welches durch x referenziert wird verändert. StringBuilder ist
+		%nicht immutable. Das macht es schwieriger zu schlussfolgern,
+		%was passiert.
+		\begin{lstlisting}[language=bash]
+scala> val x = new StringBuilder("Hello")
+x: java.lang.StringBuilder = Hello 
+		
+scala> val r1 = x.append(", World").toString 
+r1: java.lang.String = Hello, World 
+		
+scala> val r2 = x.append(", World").toString 
+r2: java.lang.String = Hello, World, World 
+\end{lstlisting}	
+\end{frame}

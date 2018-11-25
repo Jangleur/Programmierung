@@ -1,10 +1,9 @@
-\frametitle{Klasse Charge}
+\frametitle{Beispiel ohne Seiteneffekt}
 		\begin{lstlisting}[style=myScalastyle]
-case class Charge(cc: CreditCard, amount: Double) {
-	def combine(other: Charge): Charge =
-		if (cc == other.cc)
-			Charge(cc.amount + other.amount)
-		else
-			throw new Exception("Can't combine charges to different cards")
+class Cafe {
+	def buyCoffee(cc: CreditCard): (Coffee, Charge) = {
+		val cup = new Coffee()
+		(cup, Charge(cc, cup.price))
+	}
 }
 \end{lstlisting}

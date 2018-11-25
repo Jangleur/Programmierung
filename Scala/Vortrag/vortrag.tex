@@ -28,6 +28,12 @@
 \usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{tcolorbox}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily,
+	showstringspaces=false,
+	commentstyle=\color{red},
+	keywordstyle=\color{blue}
+}
 \definecolor{brightcerulean}{rgb}{0.0, 0.0, 0.6}
 \newcommand\mySlash[2]{\ensuremath{%
 		\!\sideset{_#1}{\!^#2}{\mathop\backslash}}}
@@ -118,7 +124,7 @@
 
 %Standard Angaben
 \author{Jan Albert}
-\title{Funktionale Programmierung in Scala}
+\title{Funktionale Programmierung (in Scala)}
 \date{\today}
 %\titlegraphic{\includegraphics[scale=0.04]{book2.jpg}}
 
@@ -152,6 +158,14 @@
 	%RT
 	\input{rt}
 	
+	\input{string}
+	
+	\input{string11}
+	
+	\input{string2}
+	
+	\input{string21}
+	
 	%Beispiel1
 	\input{beispiel1}
 	
@@ -161,33 +175,23 @@
 	%Beispiel2
 	\input{beispiel2}
 	
-	%Klasse Charge
-	\input{charge}
 	
-	% Mein Vortrag
-	\input{Vortragtext}
-	
-	%zweites Beispiel
-	\input{string}
+
 	
 	%Quellen
-	\section[Section]{Quellen}
-	\begin{frame}
-  		\frametitle{Quellen}    
-  		\begin{thebibliography}{10}    
-  		\beamertemplatebookbibitems
-  		\bibitem{Autor1990}
-    		Paul Chiusano,
-    		Runar Bjarnason
-   		 \newblock {\em Functional Programming in Scala}
-    	\newblock Manning, 2014.
-  		\beamertemplatearticlebibitems
-  		\bibitem{Jemand2000}
-    	S.~Jemand.
-    	\newblock On this and that.
-    	\newblock {\em Journal of This and That}, 2(1):		50--100, 2000.
-  		\end{thebibliography}
-	\end{frame}
+%	\section[Section]{Quellen}
+	%\begin{frame}
+  	%	\frametitle{Quellen}    
+  	%	\begin{thebibliography}{10}    
+  	%	\beamertemplatebookbibitems
+  	%	\bibitem{Autor1990}
+    %		Paul Chiusano,
+    %		Runar Bjarnason
+   	%	 \newblock {\em Functional Programming in Scala}
+    %	\newblock Manning, 2014.
+  		
+  %		\end{thebibliography}
+%	\end{frame}
 	
 	%Danksagung
 	\section[Section]{Danksagung}

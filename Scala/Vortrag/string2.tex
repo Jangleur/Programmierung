@@ -1,0 +1,18 @@
+	\section[Section]{Gegenbeispiel für RT}
+	\begin{frame}[fragile]
+		\frametitle{Gegenbeispiel für RT}
+		%Hier ist nun ein Gegenbeispiel für RT.
+		\begin{lstlisting}[language=bash]
+scala> val x = new StringBuilder("Hello")
+x: java.lang.StringBuilder = Hello 
+	
+scala> val y = x.append(", World") 
+y: java.lang.StringBuilder = Hello, World 
+
+scala> val r1 = y.toString 
+r1: java.lang.String = Hello, World 
+		
+scala> val r2 = y.toString 
+r2: java.lang.String = Hello, World 
+\end{lstlisting}	
+\end{frame}
