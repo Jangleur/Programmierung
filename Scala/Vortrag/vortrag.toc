@@ -2,7 +2,7 @@
 \select@language {ngerman}
 \beamer@sectionintoc {1}{Buch}{3}{0}{1}
 \beamer@sectionintoc {2}{Was ist Funktionale Programmierung?}{4}{0}{2}
-\beamer@sectionintoc {3}{Reine Funktionen}{5}{0}{3}
+\beamer@sectionintoc {3}{Reine Funktion}{5}{0}{3}
 \beamer@sectionintoc {4}{Ausdruck}{6}{0}{4}
 \beamer@sectionintoc {5}{Referenziell Transparent (RT)}{7}{0}{5}
 \beamer@sectionintoc {6}{Beispiel f\IeC {\"u}r RT}{8}{0}{6}

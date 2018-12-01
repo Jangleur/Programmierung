@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.3)  25 NOV 2018 09:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.3)  29 NOV 2018 20:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2093,7 +2093,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
 Package rerunfilecheck Info: File `vortrag.out' has not changed.
-(rerunfilecheck)             Checksum: BA12EC26FE7C32B34C808D370B8932CF;1547.
+(rerunfilecheck)             Checksum: 8865BDCDDE00CD3C05EBD87850BAD70A;1537.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2107,7 +2107,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
 Here is how much of TeX's memory you used:
  33830 strings out of 493029
  615051 string characters out of 6136234
- 753975 words of memory out of 5000000
+ 753973 words of memory out of 5000000
  36571 multiletter control sequences out of 15000+600000
  17207 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2120,7 +2120,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/mathabx-type1/matha12.pfb>
-Output written on vortrag.pdf (15 pages, 372301 bytes).
+Output written on vortrag.pdf (15 pages, 372237 bytes).
 PDF statistics:
  500 PDF objects out of 1000 (max. 8388607)
  463 compressed objects within 5 object streams
