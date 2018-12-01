@@ -10,4 +10,5 @@
 \beamer@sectionintoc {8}{Beispiel mit Seiteneffekt}{12}{0}{8}
 \beamer@sectionintoc {9}{RT im Beispiel}{13}{0}{9}
 \beamer@sectionintoc {10}{Beispiel ohne Seiteneffekt}{14}{0}{10}
-\beamer@sectionintoc {11}{Danksagung}{15}{0}{11}
+\beamer@sectionintoc {11}{Zusammenfassung}{15}{0}{11}
+\beamer@sectionintoc {12}{Danksagung}{16}{0}{12}
