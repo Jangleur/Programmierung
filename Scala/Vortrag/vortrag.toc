@@ -2,6 +2,6 @@
 \select@language {ngerman}
 \beamer@sectionintoc {2}{Was ist Funktionale Programmierung?}{4}{0}{1}
 \beamer@sectionintoc {3}{Definitionen}{5}{0}{2}
-\beamer@sectionintoc {6}{Beispiele Referenziell Transparent}{8}{0}{3}
+\beamer@sectionintoc {6}{Beispiele referenzielle Transparenz}{8}{0}{3}
 \beamer@sectionintoc {8}{Beispiele Seiteneffekt}{12}{0}{4}
 \beamer@sectionintoc {10}{Zusammenfassung}{14}{0}{5}

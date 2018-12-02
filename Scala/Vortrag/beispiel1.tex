@@ -12,7 +12,7 @@ class Cafe {
 \end{lstlisting}
 \begin{itemize}
 				\item[•] Seiteneffekt: Returntype von cc.charge(cup.price) nicht sichtbar
-				\item[•] Überprüfung RT: \\ p(buyCoffee(aCreditCard)) $\neq$ p(new Coffee())
+				\item[•] Überprüfung referenzielle Transparenz: \\ p(buyCoffee(aCreditCard)) $\neq$ p(new Coffee())
 				\end{itemize}
 		 %Das Ergebnis von buyCoffee(aCreditCard) ist
 		%nur cup, was äquivalent zu new Coffee() ist. Wenn buyCoffee eine reine 				Funktion wäre, so müsste für jedes Programm p, sich 								p(buyCoffee(aCreditCard)) und p(new Coffee()) gleich verhalten.
