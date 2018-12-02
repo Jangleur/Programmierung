@@ -1,17 +1,32 @@
-	\section[Section]{Beispiel für RT}
+	\section[Section]{Beispiele Referenziell Transparent}
 	\begin{frame}[fragile]
-		\frametitle{Beispiel für RT}
+		\frametitle{Beispiel für Referenziell Transparent}
 		%Strings sind in Scala wie in Java Immutable.\\
 		%Ein modifizierter String ist wirklich ein neuer String. Der
 		%alte String bleibt wie er ist.\\
 		\begin{lstlisting}[language=bash]
 scala> val x = "Hello, World"
 x: java.lang.String = Hello, World 
+
 		
 scala> val r1 = x.reverse 
 r1: java.lang.String = dlroW ,olleH 
+
 		
 scala> val r2 = x.reverse 
 r2: java.lang.String = dlroW ,olleH 
 \end{lstlisting}	
+\end{frame}
+	\begin{frame}[fragile]
+		\frametitle{Beispiel für RT}
+		%Die Ausgabe ist die gleiche. Also war x referenziell Transparent.
+		\begin{lstlisting}[language=bash]
+scala> val r1 = "Hello, World".reverse
+r1: java.lang.String = dlroW ,olleH 
+
+		
+scala> val r2 = "Hello, World".reverse 
+r2: String = dlroW ,olleH 
+		
+\end{lstlisting}
 \end{frame}

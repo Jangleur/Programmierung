@@ -1,14 +1,7 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {ngerman}
-\beamer@sectionintoc {1}{Buch}{3}{0}{1}
-\beamer@sectionintoc {2}{Was ist Funktionale Programmierung?}{4}{0}{2}
-\beamer@sectionintoc {3}{Reine Funktion}{5}{0}{3}
-\beamer@sectionintoc {4}{Ausdruck}{6}{0}{4}
-\beamer@sectionintoc {5}{Referenziell Transparent (RT)}{7}{0}{5}
-\beamer@sectionintoc {6}{Beispiel f\IeC {\"u}r RT}{8}{0}{6}
-\beamer@sectionintoc {7}{Gegenbeispiel f\IeC {\"u}r RT}{10}{0}{7}
-\beamer@sectionintoc {8}{Beispiel mit Seiteneffekt}{12}{0}{8}
-\beamer@sectionintoc {9}{RT im Beispiel}{13}{0}{9}
-\beamer@sectionintoc {10}{Beispiel ohne Seiteneffekt}{14}{0}{10}
-\beamer@sectionintoc {11}{Zusammenfassung}{15}{0}{11}
-\beamer@sectionintoc {12}{Danksagung}{16}{0}{12}
+\beamer@sectionintoc {2}{Was ist Funktionale Programmierung?}{4}{0}{1}
+\beamer@sectionintoc {3}{Definitionen}{5}{0}{2}
+\beamer@sectionintoc {6}{Beispiele Referenziell Transparent}{8}{0}{3}
+\beamer@sectionintoc {8}{Beispiele Seiteneffekt}{12}{0}{4}
+\beamer@sectionintoc {10}{Zusammenfassung}{14}{0}{5}

@@ -2,10 +2,9 @@
 
 
 \begin{itemize}
-		\item[•] Idee: Verwende reine Funktionen d.h. Funktionen ohne Seiteneffekte.
-		\item[•] Mittels RT lässt sich überprüfen, ob eine reine Funktion vorliegt.
-		\item[•] Reine Funktionen ermöglichen "lokales schließen".
-		\item[•] Reine Funktionen sind kontextunabhängig.
-		\item[•] Reine Funktionen sind leichter testbar, wiederverwertbar und modular.
+		\item[•] Idee: Verwendung reiner Funktionen (keine Seiteneffekte)
+		\item[•] Referenzielle Transparenz testet Abwesenheit von Seiteneffekte
+		\item[•] Ergebnisse reiner Funktionen sind kontextunabhängig
+		\item[•] Reine Funktionen: leichter testbar, wiederverwendbar und modular
 \end{itemize}
 
